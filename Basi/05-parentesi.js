@@ -1,8 +1,6 @@
 /* 
 Le parentesi graffe vengono utilizzate per definire dei blocchi di codice o per la produzione di letterali oggetti.
-
 Nella produzione di cicli con UNA sola istruzione le graffe possono essere omesse.
-
 E' una buona regola mettere sempre le graffe anche se i costrutti if hanno una sola istruzione.
 */
 
@@ -34,9 +32,7 @@ fn();
 
 /* 
 Le parentesi quadre vengono utilizzate nella produzione di array.
-
 Possono anche essere utilizzate per accedere ai valori di un array.
-
 Possono essere utiizzate per accedere alle proprietà degli oggetti utilizzando una sintassi chiamata "Accesso tramite array associativo"
 */
 

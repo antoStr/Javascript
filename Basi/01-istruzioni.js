@@ -22,7 +22,6 @@ if (x == 1) {
 */
 
 /* Per visualizzare elementi, eseguire debug, comprensione del condice ed effettuare azioni rapidi come testare pezzi di codice etc puoi utilizzare il console.log
-
-*/
+ */
 
 console.log(x);

@@ -11,20 +11,21 @@ let x;
 x = 20;
 
 // Utilizzo
-console.log(x);
+console.log(x); // 20
 
 /*
 Se eseguissi il console log otterrei 20.
-
 Se eseguissi invece prima la dichiarazione e poi l'inizializzazione otterrei un errore.
 
 Per ovviare a questo errore posso usare la variabile var che è affetta da hosting ed otterrei lo stesso risultato che ho con let.
 
 Ricorda che se eseguo in questo caso un:
 
-console.log(z);
+z = 10; 
+var z;
+console.log(z);  // 10
 
-otterrei un errore in quanto non viene dichiarata nessuna variabile z. Devo comunque dichiararla anche dopo il console log e l'hoisting ci farà ottenere undefined perchè comunque z non ha nessun valore
+Posso quindi con var dichiararla anche dopo il console log e l'hoisting farà risalire z sopra al codice, ci farà ottenere z undefined, ed infine otterremo 10.
 */
 
 // Inizializzo
