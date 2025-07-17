@@ -24,6 +24,8 @@ if (x >= 0) {
   console.log("è minore");
 }
 
+x >= 0 ? "è maggiore" : "è minore";
+
 console.log(x >= 0 ? "è maggiore" : "è minore");
 /*
 
@@ -45,6 +47,8 @@ if (b1 == true) {
 } else {
   console.log("è falso");
 }
+
+b1 == true ? "è vero" : "è falso";
 
 console.log(b1 == true ? "è vero" : "è falso");
 /*
