@@ -1,4 +1,4 @@
-// I nomi delle variabili non devono iniziare con un numero
+// I nomi delle variabili non devono e non possono iniziare con un numero
 let x = 10;
 
 /*
@@ -15,13 +15,16 @@ let $ = 20;
 let _____x = 100;
 let _12_$ = 200;
 
-// Dichiarazioni non valide, qualsiasi simbolo che ha un significato all'interno del nostro programma ↓
+// Dichiarazioni non valide, qualsiasi simbolo che ha un significato all'interno del nostro programma o in javascript in generale per non creare conflitto ↓
 
 /* 
 let let = 10;
 let if = 20;
 let { = 30;
 let ] = 24;
+let + = 12;
+let ) = 41;
+let * = 12
 
 , ; e via dicendo
 */
